@@ -30,7 +30,6 @@ public class BOFIndexer extends MelampoIndexerAbstract {
 		try {
 			settings = new Settings(propertyFile);
 		} catch (VIRException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 
